@@ -1,0 +1,20 @@
+{
+  "accountAssociation": {},
+  "miniapp": {
+    "version": "1",
+    "name": "NaijaWhot",
+    "homeUrl": "https://naijawhot.yourdomain.com",
+    "iconUrl": "https://naijawhot.yourdomain.com/icon.png",
+    "splashImageUrl": "https://naijawhot.yourdomain.com/splash.png",
+    "splashBackgroundColor": "#0B5C2D",
+    "subtitle": "Classic Nigerian Card Game",
+    "description": "Play the popular Nigerian Whot card game on Base.",
+    "primaryCategory": "games",
+    "tags": ["games", "cards", "nigeria", "whot"],
+    "heroImageUrl": "https://naijawhot.yourdomain.com/hero.png",
+    "tagline": "Play Whot. Naija Style.",
+    "ogTitle": "NaijaWhot – Nigerian Card Game",
+    "ogDescription": "Play the classic Nigerian Whot card game on Base.",
+    "ogImageUrl": "https://naijawhot.yourdomain.com/hero.png"
+  }
+}
