@@ -1,20 +1,58 @@
-{
-  "accountAssociation": {},
-  "miniapp": {
-    "version": "1",
-    "name": "NaijaWhot",
-    "homeUrl": "https://naijawhot.yourdomain.com",
-    "iconUrl": "https://naijawhot.yourdomain.com/icon.png",
-    "splashImageUrl": "https://naijawhot.yourdomain.com/splash.png",
-    "splashBackgroundColor": "#0B5C2D",
-    "subtitle": "Classic Nigerian Card Game",
-    "description": "Play the popular Nigerian Whot card game on Base.",
-    "primaryCategory": "games",
-    "tags": ["games", "cards", "nigeria", "whot"],
-    "heroImageUrl": "https://naijawhot.yourdomain.com/hero.png",
-    "tagline": "Play Whot. Naija Style.",
-    "ogTitle": "NaijaWhot – Nigerian Card Game",
-    "ogDescription": "Play the classic Nigerian Whot card game on Base.",
-    "ogImageUrl": "https://naijawhot.yourdomain.com/hero.png"
-  }
-}
+Base / Farcaster Mini App Creation Workflow
+1️⃣ Define the App Idea
+Decide the app name
+Define the purpose / function
+Know what problem the app solves
+(Example: NaijaWhot game, engagement tracker, etc.)
+2️⃣ Generate the App with an AI Builder
+Use an AI app builder like:
+lovable.app
+v0.app
+Process
+Enter your app design prompt
+Refine the UI and behavior
+Test until the output matches your vision
+Publish the app to get a live URL
+👉 example: myapp.lovable.app
+This link becomes your app’s main site.
+3️⃣ Connect GitHub & Manage Project Files
+Connect your AI builder to GitHub
+Push generated project files to your repo
+Add required assets:
+App icon
+Preview image / screenshot
+Create or edit the manifest file: 👉 farcaster.json
+This file is what Base uses to link your app to your account.
+4️⃣ Prepare App Assets
+You need:
+App icon
+App preview image
+Screenshot of the working app
+Use an AI Asset Generator to:
+Resize images to required dimensions
+Optimize for web and embed display
+5️⃣ Associate App with Base
+Edit files in your GitHub project:
+Upload icon and images
+Confirm site URL is correct
+Update farcaster.json
+Go to: 👉 https://base.dev
+Log in with:
+Same email used for Coinbase
+Register your mini app by providing:
+App URL
+Required app details
+Base will give you:
+Payload
+Security key
+Association data
+Paste these into: 👉 farcaster.json
+This step officially links your app to your Base account.
+6️⃣ Launch and Share
+Post your mini app link on:
+Base
+Farcaster
+Your app will now run inside the Base ecosystem
+It can also be accessed directly via browser
+💡 Clean Mental Model
+Idea → Generate App → Push to GitHub → Prepare Assets → Verify on Base → Share
